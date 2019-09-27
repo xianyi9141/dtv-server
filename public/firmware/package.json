@@ -1,0 +1,17 @@
+{
+  "name": "rpi-server",
+  "version": "2.0.4",
+  "description": "Calm Station CLI",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cp /usr/local/lib/node_modules/rpi-server-dist/node_modules /usr/local/lib/node_modules/rpi-server/ -r"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "calm": "./main.js"
+  },
+  "dependencies": {
+  }
+}

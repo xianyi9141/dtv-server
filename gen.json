@@ -1,0 +1,27 @@
+{
+    "common": {
+        "bandwidth_hz": 8000,
+        "transmission_mode": "8K",
+        "constellation": "QAM_64",
+        "guard_interval": "1/4",
+        "code_rate_HP": "1/2",
+        "gain": 0,
+        "onid": 9018,
+        "nid": 12339
+    },
+    "muxes": [
+        {
+            "device": "/dev/dvbmod0",
+            "frequency_khz": 666000,
+            "tsid": 57005,
+            "services": [
+                {
+                    "comment": "Channel1",
+                    "url": "http://ukiptv.ddns.net:8000/live/content/23HjeuPQrf/1355.ts",
+                    "lcn": 90,
+                    "service_id": 60000
+                }
+            ]
+        }
+    ]
+}

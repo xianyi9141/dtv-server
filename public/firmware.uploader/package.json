@@ -1,0 +1,20 @@
+{
+  "name": "rpi-updater",
+  "version": "1.0.1",
+  "description": "Checking server: Calm Gateway is Approved",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cp /home/pi/updater/node_modules /home/pi/updater/ -r"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "daemonize2": "^0.4.2",
+    "decompress-zip": "^0.3.1",
+    "md5-file": "^3.2.3",
+    "network": "^0.4.1",
+    "rimraf": "^2.6.2"
+  }
+}
