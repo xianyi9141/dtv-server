@@ -31,7 +31,7 @@
     "passport-local-mongoose": "^5.0.1",
     "ps-node": "^0.1.6",
     "slow-stream": "0.0.4",
-    "socket.io": "^2.1.1",
+    "socket.io": "^2.4.0",
     "ws": "^2.3.1"
   }
 }
